@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2022-01-12T21:39:58.832Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="yuuE_LV9UYFMmhkXAzrj" version="16.2.4" type="github">
+  <diagram id="wN6sC-IUfMMu9J1Rwkdb" name="Page-1">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jxLw8Bkb0VBa0VYMO3pL-2" value="Abertura de conta" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="220" width="540" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="jxLw8Bkb0VBa0VYMO3pL-3" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jxLw8Bkb0VBa0VYMO3pL-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="jxLw8Bkb0VBa0VYMO3pL-4" target="jxLw8Bkb0VBa0VYMO3pL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jxLw8Bkb0VBa0VYMO3pL-4" value="Fucnionario" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="540" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jxLw8Bkb0VBa0VYMO3pL-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.667;entryY=0.717;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="jxLw8Bkb0VBa0VYMO3pL-5" target="jxLw8Bkb0VBa0VYMO3pL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jxLw8Bkb0VBa0VYMO3pL-5" value="Sistema Abertura&lt;br&gt;&amp;nbsp;de conta" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jxLw8Bkb0VBa0VYMO3pL-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="jxLw8Bkb0VBa0VYMO3pL-6" target="jxLw8Bkb0VBa0VYMO3pL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jxLw8Bkb0VBa0VYMO3pL-6" value="Validador de &lt;br&gt;documeentos" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="400" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jxLw8Bkb0VBa0VYMO3pL-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="jxLw8Bkb0VBa0VYMO3pL-7" target="jxLw8Bkb0VBa0VYMO3pL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jxLw8Bkb0VBa0VYMO3pL-7" value="Aprovacao" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="550" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jxLw8Bkb0VBa0VYMO3pL-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="jxLw8Bkb0VBa0VYMO3pL-8" target="jxLw8Bkb0VBa0VYMO3pL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jxLw8Bkb0VBa0VYMO3pL-8" value="Antifraude" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="510" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

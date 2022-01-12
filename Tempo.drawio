@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" modified="2022-01-12T21:49:11.978Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="o3E7vfOT2x2GWnh0DJrF" version="16.2.4" type="github">
+  <diagram id="Gkrr4QDnkjct2vAjFy6p" name="Page-1">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v4qUvWUIRBw7PO5b92T6-1" value="emprestimo" style="shape=umlFrame;whiteSpace=wrap;html=1;width=140;height=30;" vertex="1" parent="1">
+          <mxGeometry x="30" y="50" width="860" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="v4qUvWUIRBw7PO5b92T6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v4qUvWUIRBw7PO5b92T6-2" target="v4qUvWUIRBw7PO5b92T6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v4qUvWUIRBw7PO5b92T6-11" value="Aprovacao Financeira" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v4qUvWUIRBw7PO5b92T6-7">
+          <mxGeometry x="-0.7512" y="-2" relative="1" as="geometry">
+            <mxPoint x="65" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4qUvWUIRBw7PO5b92T6-2" value="" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="90" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="v4qUvWUIRBw7PO5b92T6-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v4qUvWUIRBw7PO5b92T6-3" target="v4qUvWUIRBw7PO5b92T6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v4qUvWUIRBw7PO5b92T6-12" value="Aprovacao Antifraude" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v4qUvWUIRBw7PO5b92T6-8">
+          <mxGeometry x="-0.5953" relative="1" as="geometry">
+            <mxPoint x="62" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4qUvWUIRBw7PO5b92T6-3" value="" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="90" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="v4qUvWUIRBw7PO5b92T6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v4qUvWUIRBw7PO5b92T6-4" target="v4qUvWUIRBw7PO5b92T6-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v4qUvWUIRBw7PO5b92T6-15" value="Libera Emprestimo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v4qUvWUIRBw7PO5b92T6-14">
+          <mxGeometry x="-0.6811" relative="1" as="geometry">
+            <mxPoint x="62" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4qUvWUIRBw7PO5b92T6-4" value="" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="90" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="v4qUvWUIRBw7PO5b92T6-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v4qUvWUIRBw7PO5b92T6-5" target="v4qUvWUIRBw7PO5b92T6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v4qUvWUIRBw7PO5b92T6-10" value="Solicita emprestimo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v4qUvWUIRBw7PO5b92T6-6">
+          <mxGeometry x="-0.7421" y="-2" relative="1" as="geometry">
+            <mxPoint x="66" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4qUvWUIRBw7PO5b92T6-5" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="v4qUvWUIRBw7PO5b92T6-13" value="" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="90" width="50" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="v4qUvWUIRBw7PO5b92T6-16" value="01/02" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v4qUvWUIRBw7PO5b92T6-18" value="02/02&amp;nbsp; ... 05/02" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="100" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v4qUvWUIRBw7PO5b92T6-19" value="11/02&amp;nbsp; ... 12/02" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="100" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v4qUvWUIRBw7PO5b92T6-20" value="05/02&amp;nbsp; ... 11/02" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="100" width="160" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
