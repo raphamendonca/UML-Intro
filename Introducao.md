@@ -28,6 +28,8 @@ Diagramas estruturais
 
 ![Visão Geral de Diagramas](images/geral_diagramas.png "Visão Geral Diagramas")
 
+-----
+
 ## Comportamentais
 
 Os diagramas comportamentais, como o nome diz, representam comportamentos da "features" do sistema ou um processo de negócio. 
@@ -73,41 +75,63 @@ O diagrama de atividade representa o fluxo de controle de atividade.
 Pode ter suas operacoes baseadas nos casos de uso e demonstrar o fluxo de cada operacao, suas operacoes logicas ate sua conclusao.
 
 
-![Caso de Uso](images/object/object.png "Caso de Uso")
+![Caso de Uso](images/activity/activity.png "Caso de Uso")
+
+
+
 
 ### Diagrama de Comunicação
-\
+O diagrama de comunicação esta associado e complementa o diagrama de sequencia. 
 
-![Caso de Uso](images/object/object.png "Caso de Uso")
+Possui normalmente as mesmas informações do diagrama de sequencia, porem não da enfase a temporalidade do processo, ou seja, a sequencia temporal. Mais focado em como os elementos se comunicam entre si
 
+![Comunicacao](images/comunicacao/comunicacao.png "Comunicacao")
+
+
+
+
+-------
 
 ## Interação
 
 ### Diagrama de Sequencia
 O diagrama de sequencia apresenta uma ordem temporal de acontecimentos, onde as mensagens trocadas entre os objetos em um determinado processo. Utiliza como base os casos de uso e a estrutura de classes para determinar o processo/fluxo que determinada funcionalidade acontecerá.
 
-![Caso de Uso](images/object/object.png "Caso de Uso")
+![Sequencia](images/sequence/sequence.png "Sequencia")
+
+
+
+
 ### Diagrama de Maquina de estados
 
-Demonstra o comportamento de um elemento por um conjunto finito de transicoes de estado. 
+Demonstra o comportamento de um elemento por um conjunto finito de transicoes de estado. Pode ser utilizado para expressar o comportamento de uma parte especifica do
 
 Pode se basear no caso de uso 
 
-![Caso de Uso](images/object/object.png "Caso de Uso")
+![Maquina de estado](images/maquina-estado/maquina_estado.png "Maquina de estado")
+
+
+
 
 ### Diagrama de Visão geral de interação
 É uma variacao do diagrama de atividade, porem fornece uma visao geral do sistema ou processo de negocio. 
 
+![Visao Geral de intereação](images/visao-geral-integracao/visao-geral-integracao.png "Visao Geral de intereação")
 
 
-![Caso de Uso](images/object/object.png "Caso de Uso")
+
 
 ### Diagrama de Tempo ou Temporização
 Descreve a mudanca no estado ou codnicao de uma instancia de uma classe ou seu papael durante um tempo. 
 
 Utilizado para demostrar mudanca de estado no tempo em resposta a outro evento. 
 
-![Caso de Uso](images/object/object.png "Caso de Uso")
+![Tempo](images/tempo/Tempo.png "Tempo")
+
+
+
+
+-----
 
 ## Estruturais
 
@@ -117,7 +141,10 @@ Ele define a estrutura de classes utilziadas pelo sistema. Determinando atributo
 
 Obs: serve de base/apoio para outros diagramas
 
-![Caso de Uso](images/class/class.png "Caso de Uso")
+![Classe](images/class/class.png "Classe")
+
+
+
 
 
 ### Diagrama de Objetos
@@ -131,7 +158,10 @@ Exempo um classe pessoa:
 |- endereco = Rua bom sucesso,4 - 03333-333 São paulo/SP|
 |- idade = 42|
 
-![Caso de Uso](images/object/object.png "Caso de Uso")
+![Objetos](images/objetos/Objetos.png "Objetos")
+
+
+
 
 ### Diagrama de Pacotes
 O diagrama de pacotes representa subsistemas ou submodulos que compoem o sistema.
@@ -139,22 +169,39 @@ Pode ser utilziado em conjunto com outros diagramas ou de forma isolada.
 
 Pode tambem auxiliar a demonstrar uma arquitetura ou estrutura de uma linguagem. 
 
-![Caso de Uso](images/object/object.png "Caso de Uso")
+![Pacotes](images/pacotes/Pacotes.png "Pacotes")
+
+
+
 
 ### Diagrama de Componentes
 Muito associado a linguagem de programacao utilziada e arquitetura da solucao
 
-![Caso de Uso](images/object/object.png "Caso de Uso")
+![Componentes](images/componentes/Componentes.png "Componentes")
+
+
+
 
 ### Diagrama de Implantação
 Esse diagrama determina as necessidade de hardware para aquele sistema, caracteristicas fisicas  como servidores, estacoes, protocolos, topologias
 
-![Caso de Uso](images/object/object.png "Caso de Uso")
+![Implantação](images/implantacao/Implantacao.png "Implantação")
+
+
+
 
 ### Diagrama de Estrutura Composta
 Descreve uma estrutura interna de um classificador, como uma classe ou componente. 
 
 Detalha estrutura internas que compoem e descreve como elas colaboram entre si. 
 
-![Caso de Uso](images/object/object.png "Caso de Uso")
+![Estrutura Composta](images/Estrutura_Composta/Estrutura_Composta.png "Estrutura Composta")
+
+
+
 ### Diagrama de Perfil
+
+Os diagramas de perfil, sao metamodelos, templates, para construcao de um dominio. 
+
+Normalmente criados para padronizar uma determinada estrutura de um sistema.
+
