@@ -1,1 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2022-01-12T21:14:38.111Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" version="16.2.4" etag="M7OZcVVucNTgf0piUzks" type="github"><diagram id="sZ46eb7JN9bYFUtqspC5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-12T21:27:13.924Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="E7g7h9ybIkyJ6DhaONQ8" version="16.2.4" type="github">
+  <diagram id="sZ46eb7JN9bYFUtqspC5" name="Page-1">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CLUcuGUDPph8qw6TIUgs-34" value="Sistema Bancario" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="10" y="30" width="840" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="CLUcuGUDPph8qw6TIUgs-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="CLUcuGUDPph8qw6TIUgs-8" target="CLUcuGUDPph8qw6TIUgs-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CLUcuGUDPph8qw6TIUgs-8" value="caixa eletronico" style="html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="110" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CLUcuGUDPph8qw6TIUgs-9" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="CLUcuGUDPph8qw6TIUgs-8">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CLUcuGUDPph8qw6TIUgs-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="CLUcuGUDPph8qw6TIUgs-10" target="CLUcuGUDPph8qw6TIUgs-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CLUcuGUDPph8qw6TIUgs-10" value="firewall" style="html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="110" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CLUcuGUDPph8qw6TIUgs-11" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="CLUcuGUDPph8qw6TIUgs-10">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CLUcuGUDPph8qw6TIUgs-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="CLUcuGUDPph8qw6TIUgs-12" target="CLUcuGUDPph8qw6TIUgs-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CLUcuGUDPph8qw6TIUgs-12" value="api-gateway" style="html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="110" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CLUcuGUDPph8qw6TIUgs-13" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="CLUcuGUDPph8qw6TIUgs-12">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CLUcuGUDPph8qw6TIUgs-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="CLUcuGUDPph8qw6TIUgs-14" target="CLUcuGUDPph8qw6TIUgs-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CLUcuGUDPph8qw6TIUgs-14" value="gerenciador de conta" style="html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="310" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CLUcuGUDPph8qw6TIUgs-15" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="CLUcuGUDPph8qw6TIUgs-14">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CLUcuGUDPph8qw6TIUgs-16" value="BANCO DE DADOS" style="html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CLUcuGUDPph8qw6TIUgs-17" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="CLUcuGUDPph8qw6TIUgs-16">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
